@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const bands = [
   "Anywhere But Here",
   "The Bled",
@@ -13,7 +12,7 @@ const bands = [
   "Say Anything"
 ];
 
-const bandList = document.getElementById("band-list");
+const bandList = document.getElementById("bands");
 
 bands.forEach(band => {
   const li = document.createElement("li");
